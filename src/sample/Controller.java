@@ -4,35 +4,30 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.input.InputEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class Controller {
-
+public class Controller implements Initializable{
+    //Comments added for dramatic effect
     String username = "admin";
     String password = "TSAATC2018";
 
     ObservableList<String> deviceList = FXCollections.observableArrayList("Phone", "Computer", "Tablet");
-
-
-
     @FXML
     Button confirm = new Button();
     @FXML
@@ -46,21 +41,24 @@ public class Controller {
     @FXML
     Button ok = new Button();
     @FXML
-    ChoiceBox device;
+    ChoiceBox<String> device = new ChoiceBox<>();
 
-    //Comments added for dramatic effect
+    public void start() throws IOException {
+        Stage primaryStage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        primaryStage.setTitle("Allman Town MAC Filter");
+        primaryStage.setScene(new Scene(root, 340, 270));
+        primaryStage.show();
+    }
+
     public void addMac() throws InterruptedException {
-
         String mac = mac_address.getText();
         String name = name_tf.getText();
         String dev = (String)device.getValue();
 
-
-
         if(mac.equalsIgnoreCase("") && name.equalsIgnoreCase("")){
             //Alert Box when nothing is entered
             nothingEntered();
-            System.out.println("Nothing entered");
 
         }else{
             if(macValidate(mac)){
@@ -69,22 +67,16 @@ public class Controller {
                 WebDriver driver = new FirefoxDriver();
 
                 if(login(driver)){
-                    System.out.println("Login Went Well");
 
                 }else{
-                    System.out.println("Error, could not login");
-                }
 
+                }
                 Thread.sleep(5000);
-                System.out.println("Successfully Terminated");
                 driver.quit();
             }else{
-                System.out.println("Incorrect MAC");
                 display();
             }
         }
-
-
     }
 
     public boolean macValidate(String mac) {
@@ -153,15 +145,14 @@ public class Controller {
         stage.showAndWait();
     }
 
+    @FXML
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        device.setValue("Phone");
+        device.setItems(deviceList);
 
+        //to get selected item:
+        //device.getValue().toString();
 
-    //This function crashes almost everything
-//    @FXML
-//    private void initialize(){
-//        device.setValue("Phone");
-//        device.setItems(deviceList);
-//    }
-
-
-
+    }
 }
