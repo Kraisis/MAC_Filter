@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,19 +75,16 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+            <state relative-caret-position="362">
+              <caret line="161" column="53" lean-forward="true" selection-start-line="161" selection-start-column="53" selection-end-line="161" selection-end-column="53" />
               <folding>
                 <element signature="method#start#0;class#Controller#0" expanded="false" />
-                <element signature="method#addMac#0;class#Controller#0" expanded="false" />
                 <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
                 <element signature="method#display#0;class#Controller#0" expanded="false" />
                 <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
                 <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-                <element signature="method#login#0;class#Controller#0" expanded="false" />
-                <element signature="e#3558#3608#0" expanded="false" />
                 <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-                <element signature="e#4540#4545#0" expanded="false" />
+                <element signature="e#4545#4550#0" expanded="false" />
                 <element signature="method#initialize#0;class#Controller#0" expanded="false" />
               </folding>
             </state>
@@ -186,6 +182,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -209,7 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,12 +378,11 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="17" width="1368" height="752" extended-state="6" />
+    <frame x="0" y="18" width="1366" height="750" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -414,6 +409,7 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -438,6 +434,55 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/nothing.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding>
+            <element signature="method#start#0;class#Controller#0" expanded="false" />
+            <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
+            <element signature="method#display#0;class#Controller#0" expanded="false" />
+            <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
+            <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
+            <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -476,15 +521,12 @@
           <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="114" selection-end-column="5" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -529,15 +571,12 @@
           <caret line="87" column="2" lean-forward="false" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -582,15 +621,12 @@
           <caret line="87" column="2" lean-forward="true" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -635,15 +671,12 @@
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -688,15 +721,12 @@
           <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -729,15 +759,12 @@
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -759,15 +786,12 @@
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -811,15 +835,12 @@
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>
@@ -858,8 +879,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="187">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -868,19 +889,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        <state relative-caret-position="362">
+          <caret line="161" column="53" lean-forward="true" selection-start-line="161" selection-start-column="53" selection-end-line="161" selection-end-column="53" />
           <folding>
             <element signature="method#start#0;class#Controller#0" expanded="false" />
-            <element signature="method#addMac#0;class#Controller#0" expanded="false" />
             <element signature="method#macValidate#0;class#Controller#0" expanded="false" />
             <element signature="method#display#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButtonAction#0;class#Controller#0" expanded="false" />
             <element signature="method#closeButton#0;class#Controller#0" expanded="false" />
-            <element signature="method#login#0;class#Controller#0" expanded="false" />
-            <element signature="e#3558#3608#0" expanded="false" />
             <element signature="method#nothingEntered#0;class#Controller#0" expanded="false" />
-            <element signature="e#4540#4545#0" expanded="false" />
+            <element signature="e#4545#4550#0" expanded="false" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
           </folding>
         </state>

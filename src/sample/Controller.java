@@ -67,7 +67,7 @@ public class Controller implements Initializable{
                 WebDriver driver = new FirefoxDriver();
 
                 if(login(driver)){
-
+                    enterMac(driver, mac);
                 }else{
 
                 }
@@ -114,15 +114,15 @@ public class Controller implements Initializable{
         stage.close();
     }
 
-    public boolean login(WebDriver driver) throws InterruptedException {
+    public boolean login(WebDriver driver){
 
         try{
-//            driver.get("192.168.0.1/?wifi_mac");
-//            driver.findElement(By.id("UserName")).sendKeys(username);
-//            driver.findElement(By.id("Password")).sendKeys(password);
-//            driver.findElement(By.className("submitBtn")).click();
+            driver.get("192.168.0.1/?wifi_mac");
+            driver.findElement(By.id("UserName")).sendKeys(username);
+            driver.findElement(By.id("Password")).sendKeys(password);
+            driver.findElement(By.className("submitBtn")).click();
             System.out.println("Login Successful");
-            Thread.sleep(1000);
+            Thread.sleep(5000);
         }catch(Exception e){
             return false;
         }
@@ -155,4 +155,21 @@ public class Controller implements Initializable{
         //device.getValue().toString();
 
     }
+
+
+
+    public void enterMac(WebDriver driver, String mac) throws InterruptedException {
+        driver.findElement(By.id("Mac_Add")).click();
+        driver.findElement(By.id("MacAddress")).sendKeys(mac);
+        driver.findElement(By.xpath("/html/body/div[2]/div[11]/div/button[1]")).click();
+        driver.findElement(By.id("Mac_Apply")).click();
+
+        Thread.sleep(5000);
+
+    }
+
+
+
+
+
 }
